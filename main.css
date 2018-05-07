@@ -23,7 +23,7 @@ a {
 }
 
 h1 {
-    font-size: 4vw;
+    font-size: 7vw;
     letter-spacing: 0.5vw;
 }
 
@@ -33,14 +33,20 @@ article {
     margin: 1vw
 }
 
-p {
-    font-size: 3vw;
+h2 {
+    font-size: 4vw;
     letter-spacing: 0.2vw;
+    margin: 1vw
+}
+
+p {
+    font-size: 2vw;
+    letter-spacing: 0.1vw;
     margin: 1vw;
 }
 
 footer p {
-    font-size: 2vw;
+    font-size: 1.5vw;
     letter-spacing: 0.2vw;
     margin: 0vw;
 }
