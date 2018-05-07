@@ -1,0 +1,81 @@
+/* Basis styles */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+    background-color: blanchedalmond;
+    font-family: 'Dosis', sans-serif;
+}
+
+img {
+    width: 100%;
+}
+
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+a {
+    color: darkgrey;
+    margin: 1vw;
+}
+
+h1 {
+    font-size: 4vw;
+    letter-spacing: 0.5vw;
+}
+
+article {
+    font-size: 3vw;
+    letter-spacing: 0.2vw;
+    margin: 1vw
+}
+
+p {
+    font-size: 3vw;
+    letter-spacing: 0.2vw;
+    margin: 1vw;
+}
+
+footer p {
+    font-size: 2vw;
+    letter-spacing: 0.2vw;
+    margin: 0vw;
+}
+
+/* Navigation */
+
+nav ul {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    list-style: none;
+    padding-left: 0;
+}
+
+nav ul li {
+    position: relative;
+    padding-right: 2em;
+}
+
+.dropdown > ul {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    padding: 1em;
+    border-radius: 18px;
+}
+
+.dropdown > ul li {
+    white-space: nowrap;
+    padding: 0 0.5em;
+}
+
+.dropdown:hover > ul {
+    display: block;
+}
