@@ -28,7 +28,7 @@ h1 {
 }
 
 article {
-    font-size: 3vw;
+    font-size: 5vw;
     letter-spacing: 0.2vw;
     margin: 1vw
 }
@@ -37,6 +37,12 @@ h2 {
     font-size: 4vw;
     letter-spacing: 0.2vw;
     margin: 1vw
+}
+
+h3 {
+    font-size: 3vw;
+    letter-spacing: 0.2vw;
+    margin: 1vw;
 }
 
 p {
