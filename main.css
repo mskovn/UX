@@ -51,6 +51,12 @@ p {
     margin: 1vw;
 }
 
+li {
+    font-size: 1vw;
+    letter-spacing: 0.1vw;
+    margin: 1vw;
+}
+
 footer p {
     font-size: 0.5vw;
     letter-spacing: 0.2vw;
